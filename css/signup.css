@@ -254,13 +254,13 @@ form div:nth-child(5) > label > span {
   }
 
   .container__header {
-    padding: 0 5%;
+    padding: 0 8%;
   }
 
   .container__main {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    padding: 0 5%;
+    padding: 0 8%;
     column-gap: 0em;
     align-items: center;
     padding-bottom: 1em;

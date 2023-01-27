@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="John Carlo Cañada" />
     <title>IndieBrew Signup</title>
-    <link rel="shortcut icon" href="public/static/images/Logo.svg" />
+    <link rel="shortcut icon" href="/images/Logo.svg" />
     <link rel="stylesheet" href="css/signup.css" />
     <script type="module" src="js/main.js"></script>
 
@@ -21,13 +21,15 @@
     <div class="container">
       <header class="container__header">
         <nav class="header__nav">
-          <img src="public/static/images/Logo.svg" />
+          <img aria-hidden="true" src="/images/Logo.svg" />
           <ul class="signup__navLinks">
             <li>
               <a aria-label="Go to Homepage" href="index.html"
-                ><img src="public/static/images/Back Arrow.svg" alt=""
+                ><img aria-hidden="true" src="/images/Back Arrow.svg" alt=""
               /></a>
-              <a href="index.html">Back to homepage</a>
+              <a aria-label="Go to Homepage" href="index.html"
+                >Back to homepage</a
+              >
             </li>
           </ul>
         </nav>
