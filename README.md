@@ -12,8 +12,8 @@ Free or paid, all templates are high quality and will make great portfolio piece
 
 We recommend using one of these two websites to deploy your projects
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://www.netlify.com/)
+- [GitHub Pages](https://github.com/JohnCarloCanada/IndieBrewer)
+- [Netlify](https://dynamic-crostata-3466a1.netlify.app/)
 
 They're super easy to setup and you should have your website up and running in no time, just follow their instructions.
 
