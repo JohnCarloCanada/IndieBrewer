@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="John Carlo Cañada" />
+    <title>Indie Brew</title>
+    <link rel="shortcut icon" href="Assets/Logo.svg" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/dc85338648.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- CONTAINER -->
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <!-- NAVIGATION LINKS -->
+        <nav>
+          <img
+            aria-hidden="true"
+            src="assets/Logo.svg"
+            alt="WEBSITE LOGO"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a href="#" aria-label="Go to pricing page">Pricing</a></li>
+            <li><a href="#" aria-label="Go to Support page">Support</a></li>
+            <li>
+              <a
+                aria-label="Go to signup page"
+                class="signup__link"
+                href="signup.html"
+                target="_self"
+                >Get Started - it's free</a
+              >
+            </li>
+          </ul>
+          <img aria-hidden="true" src="Assets/Hamburger Menu.svg" id="menu" />
+        </nav>
+        <!-- HERO -->
+        <section class="header__hero">
+          <div class="hero__desc">
+            <h1 data-aos="fade-right">
+              Your weekly <br />
+              personal feed digest.
+            </h1>
+            <p>
+              With IndieBrew get personal feeds from resources all around the
+              web including Reddit, Hackernews, IndieHackers and much more.
+            </p>
+            <a
+              aria-label="Go to signup page"
+              class="signup__link"
+              href="signup.html"
+              target="_self"
+              >Get Started - it's free</a
+            >
+            <img aria-hidden="true" src="assets/User Avatars.svg" />
+            <p>
+              Join
+              <span class="text__highlight">32,642 </span>IndieBrewers in
+              curating their personal digest.
+            </p>
+          </div>
+          <img
+            aria-hidden="true"
+            class="hero__image"
+            src="Assets/Feed Mockup.png"
+          />
+        </section>
+      </header>
+
+      <!-- MAIN -->
+      <main>
+        <!-- MAIN RESOURCES -->
+        <section class="resources">
+          <img
+            aria-hidden="true"
+            src="Assets/Social Media Icons.png"
+            alt="Social Media Icons"
+            class="resources__icons"
+          />
+          <section class="resources__desc">
+            <p data-aos="fade-right" class="resources__header">
+              Curate your feed from dozens of resources.
+            </p>
+            <p data-aos="fade-right" class="resources__p">
+              We cover all major platforms where one could want to curate their
+              feed from. Reddit, ProductHunt, IndieHackers, and so much more.
+            </p>
+            <a
+              data-aos="fade-right"
+              aria-label="Go to  resources"
+              class="link__resources"
+              href="#"
+              >See full list of resources
+              <i class="fa-solid fa-arrow-right move-right"></i
+            ></a>
+          </section>
+        </section>
+
+        <!-- MAIN WAITLIST -->
+        <section class="waitlist">
+          <img
+            src="Assets/Phone Mockup.png"
+            alt="Phone Mockup"
+            class="waitlist__phone__mockup"
+            aria-hidden="true"
+          />
+          <section class="waitlist__desc">
+            <p data-aos="fade-left" class="waitlist__header">
+              Acces your feed from the comfort of your phone.
+            </p>
+            <p data-aos="fade-left" class="waitlist__p">
+              With native apps for both IOS and Android accessing your curated
+              content has never been easier.
+            </p>
+            <a
+              data-aos="fade-left"
+              aria-label="Go to waitlist"
+              class="link__waitlist"
+              href="#"
+              >Sign up for the waitlist
+              <i class="fa-solid fa-arrow-right move-right"></i
+            ></a>
+          </section>
+        </section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <section class="footer__attri">
+          <p aria-label="footer__header" class="footer__header">IndieBrew</p>
+          <p class="footer__p">
+            With IndieBrew, get personal feeds from resources all around the
+            web, including Reddit, HackerNews, and much more.
+          </p>
+          <br />
+          <p>Made with <i class="fa-solid fa-heart"></i> in the UK</p>
+        </section>
+
+        <section class="footer__links">
+          <article class="footer_link sitemap__li">
+            <label>Sitemap</label>
+            <ul>
+              <li><a href="#">Homepage</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </article>
+          <article class="footer_link resources__li">
+            <label>Resources</label>
+            <ul>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </article>
+          <article class="footer_link company__li">
+            <label>Company</label>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </article>
+          <article class="footer_link portfolio__li">
+            <label>Portfolio</label>
+            <ul>
+              <li><a href="#">HackerNews</a></li>
+              <li><a href="#">Reddit</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </article>
+        </section>
+      </footer>
+    </div>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

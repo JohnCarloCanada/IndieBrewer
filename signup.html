@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="John Carlo Cañada" />
+    <title>IndieBrew Signup</title>
+    <link rel="shortcut icon" href="Assets/Logo.svg" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <script type="module" src="js/main.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://kit.fontawesome.com/dc85338648.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="container__header">
+        <nav class="header__nav">
+          <img aria-hidden="true" src="Assets/Logo.svg" />
+          <ul class="signup__navLinks">
+            <li>
+              <a aria-label="Go to Homepage" href="index.html"
+                ><img src="assets/Back Arrow.svg" alt=""
+              /></a>
+              <a href="index.html">Back to homepage</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="container__main">
+        <section class="main__signup__desc">
+          <h1 data-aos="fade-right">Create your personalized feed</h1>
+          <div class="sign__up__box">
+            <i class="fa-solid fa-gear"></i>
+            <p>
+              <span>Over 20 resources. </span>With resources ranging from Reddit
+              to IndieHackers, we've got all your needs covered.
+            </p>
+          </div>
+          <div class="sign__up__box">
+            <i class="fa-solid fa-inbox"></i>
+            <p>
+              <span>Delivered weekly. </span>Every week at exactly Tuesday 12:00
+              P.M. EST <span class="no-split">- expect</span> a
+              <span class="no-split">value-packed</span> digest right in your
+              email.
+            </p>
+          </div>
+          <div class="sign__up__box">
+            <i class="fa-regular fa-lightbulb"></i>
+            <p>
+              <span>Unlimited ideas. </span>With all the ideas you'll be reading
+              about, what's stopping you from creating a sustainable startup?
+            </p>
+          </div>
+        </section>
+
+        <section class="signup__form">
+          <form action="https://httpbin.org/post" method="post">
+            <h3>Create your IndieBrew Account</h3>
+            <div class="div-form">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john.doe@example.com"
+                required
+              />
+              <span class="border-btm"></span>
+            </div>
+            <div class="div-form">
+              <label for="full__name">Full Name</label>
+              <input
+                type="text"
+                id="full__name"
+                name="Full Name"
+                placeholder="John Doe"
+                required
+              />
+              <span class="border-btm"></span>
+            </div>
+            <div class="div-form">
+              <label for="pass">Password</label>
+              <input
+                type="password"
+                id="pass"
+                name="password"
+                placeholder="At least 8 characters"
+                required
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+              />
+              <span class="border-btm"></span>
+            </div>
+            <div>
+              <input type="checkbox" name="chckbox" id="chckbox" required />
+              <label for="chckbox"
+                >By creating an account on IndieBrew you agree to the
+                <span class="no-split">Terms & Conditions</span>.</label
+              >
+            </div>
+            <button class="submit__button" type="submit">
+              Create an Account
+            </button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
